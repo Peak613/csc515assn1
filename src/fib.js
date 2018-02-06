@@ -2,7 +2,7 @@
     var Mathfun = {
         called: 0,
     
-        Fibonacci(index) {
+        fibonacci(index) {
 
             this.called++;
 
@@ -33,10 +33,10 @@
         }
     
     }    
-    Mathfun.Fibonacci('twelve');
-    Mathfun.Fibonacci('3');
+    Mathfun.fibonacci('twelve');
+    Mathfun.fibonacci('3');
     Mathfun.fibonacciUsage();
-    Mathfun.Fibonacci('5.6');
+    Mathfun.fibonacci('5.6');
     Mathfun.fibonacciUsage();
     
 
